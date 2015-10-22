@@ -1,0 +1,86 @@
+.pos-relative {
+	position: relative;
+}
+.pos-absolute {
+	position: absolute;
+}
+.pos-fixed {
+	position: fixed;
+}
+.img-contain img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.img-cover img{
+	max-width: 100%;
+	text-align: center;
+}
+.left-justify {
+	text-align: left;
+}
+.center-justify {
+	text-align: center;
+}
+.right-justify {
+	text-align: right;
+}
+.align-top {
+	vertical-align: top;
+}
+.align-middle {
+	vertical-align: middle;
+}
+.align-bottom {
+	vertical-align: bottom;
+}
+.bold {
+	font-weight: bold;
+}
+.block {
+	display: block;
+}
+.block-force {
+	display: block !important;
+}
+.inline-block {
+	display: inline-block;
+}
+.inline-block-force {
+	display: inline-block !important;
+}
+.hidden {
+	display: none;
+}
+.hidden-force {
+	display: none !important;
+}
+.invisible {
+	visibility: hidden;
+}
+.invisible-force {
+	visibility: hidden !important;
+}
+.unset {
+	padding: 0;
+	margin: 0;
+}
+.unset-force {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.fillout {
+	width: 100%;
+	height: 100%;
+}
+.fullheight {
+	height: 100%;
+}
+.underline {
+	text-decoration: underline;
+}
+.no-underline {
+	text-decoration: none;
+}
+.no-list-style {
+	list-style: none;
+}

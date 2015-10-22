@@ -1,0 +1,9 @@
+///* x-axis */
+@for $i from 0 through 5 {
+	@for $d from 0 through 9 {
+		.x-marg-#{$i}_#{$d} {
+			margin-left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			margin-right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+		}
+	}
+}

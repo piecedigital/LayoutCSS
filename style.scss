@@ -1,0 +1,89 @@
+//////////////////////// Sass Prerequisites //////////////////////////
+/* font size */
+$em: 16px;
+
+// mixins
+@import "_mixins";
+
+///////////////////// Main Styling /////////////////////////////////
+/*///////////////////////// prerequisites /////////////////////////*/
+/* recycle styles */
+@import "_options.scss";
+
+/* column styles */
+@import "_columns.scss";
+/* generated styles */
+
+/* font styles */
+@import "_font-size.scss";
+/* padding styles */
+/* x-axis */
+@import "_x-padding.scss";
+/* y-axis */
+@import "_y-padding.scss";
+/* top */
+@import "_top-padding.scss";
+/* bottom */
+@import "_bottom-padding.scss";
+/* left */
+@import "_left-padding.scss";
+/* right */
+@import "_right-padding.scss";
+/* margin styles */
+/* x-axis */
+@import "_x-margin.scss";
+/* y-axis */
+@import "_y-margin.scss";
+/* top */
+@import "_top-margin.scss";
+/* bottom */
+@import "_bottom-margin.scss";
+/* left */
+@import "_left-margin.scss";
+/* right */
+@import "_right-margin.scss";
+
+
+/* border radius */
+@import "_border-radius.scss";
+
+///* buttons */
+@import "_buttons-DEP.scss";
+
+/*///////////////////////// content styling /////////////////////////*/
+/* body ----------------------------*/
+/* footer ----------------------------*/
+/* hover events ----------------------------*/
+
+/*///////////////////////// responsive styling /////////////////////////*/
+@import "columns-responsive-DEP.scss";
+@include media-max(1024px) {
+	/* prereqs ----------------------------*/
+	/* header ----------------------------*/
+	/* body ----------------------------*/
+	/* footer ----------------------------*/
+	/* hover events ----------------------------*/
+}
+@include media-max(800px) {
+	/* prereqs ----------------------------*/
+	/* header ----------------------------*/
+	/* body ----------------------------*/
+	/* footer ----------------------------*/
+	/* hover events ----------------------------*/
+}
+@include media-max(540px) {
+	/* prereqs ----------------------------*/
+	/* header ----------------------------*/
+	/* body ----------------------------*/
+	/* footer ----------------------------*/
+	/* hover events ----------------------------*/
+}
+@include media-max(480px) {
+	/* prereqs ----------------------------*/
+	/* header ----------------------------*/
+	/* body ----------------------------*/
+	/* footer ----------------------------*/
+	/* hover events ----------------------------*/
+}
+
+/*///////////////////////// animations /////////////////////////*/

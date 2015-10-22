@@ -1,0 +1,55 @@
+// THIS MODULE IS DEPENDENT ON "_x-padding.scss", "_y-padding.scss", and "_border-radius.scss" MODULES
+
+.very-small-btn {
+	@extend .x-pad-0_2;
+	@extend .y-pad-0_2;
+	@extend .border-radius-0_2;
+}
+
+.small-btn {
+	@extend .x-pad-0_5;
+	@extend .y-pad-0_5;
+	@extend .border-radius-0_5;
+}
+
+.med-btn {
+	@extend .x-pad-1_0;
+	@extend .y-pad-1_0;
+	@extend .border-radius-0_5;
+}
+
+.big-btn {
+	@extend .x-pad-1_5;
+	@extend .y-pad-1_5;
+	@extend .border-radius-1_0;
+}
+
+.very-big-btn {
+	@extend .x-pad-2_0;
+	@extend .y-pad-2_0;
+	@extend .border-radius-1_0;
+}
+
+.large-btn {
+	@extend .x-pad-2_5;
+	@extend .y-pad-2_5;
+	@extend .border-radius-1_5;
+}
+
+.very-large-btn {
+	@extend .x-pad-3_0;
+	@extend .y-pad-3_0;
+	@extend .border-radius-1_5;
+}
+
+@for $i from 0 through 5 {
+	@for $d from 0 through 9 {
+		.widen-btn-#{$i}_#{$d} {
+			@extend .x-pad-#{$i}_#{$d};
+		}
+	}
+}
+
+.full-width-btn {
+	width: 100%;
+}

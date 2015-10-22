@@ -1,0 +1,9 @@
+///* y-axis */
+@for $i from 0 through 3 {
+	@for $d from 0 through 9 {
+		.y-marg-#{$i}_#{$d} {
+			margin-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			margin-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+		}
+	}
+}

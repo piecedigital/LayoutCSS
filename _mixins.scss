@@ -1,0 +1,106 @@
+//default mixins
+@mixin border-radius($val...) {
+	-ms-border-radius: $val;
+	-moz-border-radius: $val;
+	-webkit-border-radius: $val;
+	border-radius: $val;
+}
+@mixin box-shadow($val...) {
+	-ms-box-shadow: $val;
+	-moz-box-shadow: $val;
+	-webkit-box-shadow: $val;
+	box-shadow: $val;
+}
+@mixin transformR($val...) {
+	-ms-transform: rotate($val);
+	-moz-transform: rotate($val);
+	-webkit-transform: rotate($val);
+	transform: rotate($val);
+}
+@mixin transformS($val) {
+	-ms-transform: scale($val);
+	-moz-transform: scale($val);
+	-webkit-transform: scale($val);
+	transform: scale($val);
+}
+@mixin transformRS($rot, $scale...) {
+	-ms-transform: rotate( $rot ) scale( $scale );
+	-moz-transform: rotate( $rot ) scale( $scale );
+	-webkit-transform: rotate( $rot ) scale( $scale );
+	transform: rotate( $rot ) scale( $scale );
+}
+@mixin transformT($val...) {
+	-ms-transform: translate($val);
+	-moz-transform: translate($val);
+	-webkit-transform: translate($val);
+	transform: translate($val);
+}
+@mixin transformST($val1, $val2...) {
+	-ms-transform: scale($val1) translate($val2);
+	-moz-transform: scale($val1) translate($val2);
+	-webkit-transform: scale($val1) translate($val2);
+	transform: scale($val1) translate($val2);
+}
+@mixin transformRT($val1, $val2...) {
+	-ms-transform: rotate($val1) translate($val2);
+	-moz-transform: rotate($val1) translate($val2);
+	-webkit-transform: rotate($val1) translate($val2);
+	transform: rotate($val1) translate($val2);
+}
+@mixin media-min($val) {
+	@media screen and (min-width: $val) {
+		@content;
+	}
+}
+@mixin media-max($val) {
+	@media screen and (max-width: $val) {
+		@content;
+	}
+}
+@mixin animation($name, $time, $itter) {
+	/*moz*/
+  -moz-animation: $name $time linear 0s $itter normal running;
+  /*webkit*/
+  -webkit-animation: $name $time linear 0s $itter normal running;
+  /*standard*/
+  animation: $name $time linear 0s $itter normal running;
+}
+@mixin keyframes($val) {
+	/*---- media query for $val ----*/
+	@-moz-keyframes #{$val} {
+		@content;
+	}
+	@-webkit-keyframes #{$val} {
+		@content;
+	}
+	@keyframes #{$val} {
+		@content;
+	}
+}
+@mixin background-gradient($deg, $colors...) {
+	-ms-background: linear-gradient($deg, $colors);
+	-moz-background: linear-gradient($deg, $colors);
+	-webkit-background: linear-gradient($deg, $colors);
+	background: linear-gradient($deg, $colors);
+}
+@mixin linear-gradient($deg, $colors...) {
+	background: linear-gradient($deg, $colors);
+	background: -moz-linear-gradient($deg, $colors);
+	background: -webkit-linear-gradient($deg, $colors);
+}
+@mixin transition($val...) {
+	transition: $val;
+  -webkit-transition: $val;
+  -moz-transition: $val;
+}
+@mixin columnWidth($val) {
+	column-width: $val;
+	-webkit-column-width: $val;
+	-moz-column-width: $val;
+}
+
+@mixin appearance($val) {
+	appearance: $val;
+	-webkit-appearance: $val;
+	-moz-appearance: $val;
+}
