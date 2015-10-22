@@ -2,13 +2,82 @@
 /* font size */
 $em: 16px;
 
-// mixins
+// scrollbar and selection restyling
 @import "_mixins";
-
 ///////////////////// Main Styling /////////////////////////////////
 /*///////////////////////// prerequisites /////////////////////////*/
-/* recycle styles */
+
+/* optional styles */
 @import "_options.scss";
+
+/* custom styles */
+@import "_defaults";
+@import "_scrollbar";
+
+body {
+	margin: 0;
+	background: $lightBlue;
+	color: rgba(40, 40, 40, 1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+header, section, footer {
+	display: block;
+}
+.page-wrap {
+	position: relative;
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+	pointer-events: auto;
+}
+.black {
+	color: black;
+}
+.mid-blue {
+	color: $midBlue;
+}
+.mid-blue-bg {
+	background: $midBlue;
+}
+.dim-blue {
+	color: $dimBlue;
+}
+.dim-blue-bg {
+	background: $dimBlue;
+}
+.light-blue {
+	color: $lightBlue;
+}
+.light-blue-bg {
+	background: $lightBlue;
+}
+.very-light-blue {
+	color: $veryLightBlue;
+}
+.very-light-blue-bg {
+	background: $veryLightBlue;
+}
+.dark-blue {
+	color: $darkBlue;
+}
+.dark-blue-bg {
+	background: $darkBlue;
+}
+.of-hidden {
+	overflow: hidden;
+}
+.line-spacer {
+	margin: .5*$em auto;
+	max-width: 50%;
+	height: 4px;
+}
+/* end custom styles */
 
 /* column styles */
 @import "_columns.scss";
@@ -52,7 +121,33 @@ $em: 16px;
 
 /*///////////////////////// content styling /////////////////////////*/
 /* body ----------------------------*/
+header {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 .1*$em .4*$em -.05*$em $darkBlue;
+	nav {
+		a {
+			color: $veryLightBlue;
+			&:hover {
+				color: $darkBlue;
+				background-color: $lightBlue;
+			}
+		}
+	}
+}
+.content-box {
+	box-shadow: 0 0 .5*$em .1*$em $darkBlue;
+}
+.content-header {
+	box-shadow: 0 .1*$em .4*$em -.05*$em $darkBlue;
+}
 /* footer ----------------------------*/
+footer{
+	box-shadow: 0 -.1*$em .4*$em -.05*$em $darkBlue;
+}
 /* hover events ----------------------------*/
 
 /*///////////////////////// responsive styling /////////////////////////*/
@@ -85,5 +180,4 @@ $em: 16px;
 	/* footer ----------------------------*/
 	/* hover events ----------------------------*/
 }
-
 /*///////////////////////// animations /////////////////////////*/
