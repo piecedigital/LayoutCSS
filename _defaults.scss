@@ -1,0 +1,14 @@
+//default colors
+$veryLightBlue: #e8f8ff;
+$lightBlue: #9be0ff;
+$midBlue: #00a2eb;
+$tintedBlue: #058BC7;
+$dimBlue: #017ab1;
+$darkBlue: #004B6E;
+
+@import "_border-box.scss";
+*, *:before, *:after {
+  font-size: $em;
+  font-family: sans-serif;
+  @include transition(.5s all);
+}

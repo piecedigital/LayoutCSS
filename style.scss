@@ -121,33 +121,33 @@ header, section, footer {
 
 /*///////////////////////// content styling /////////////////////////*/
 /* body ----------------------------*/
-header {
-	z-index: 1;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	box-shadow: 0 .1*$em .4*$em -.05*$em $darkBlue;
-	nav {
-		a {
-			color: $veryLightBlue;
-			&:hover {
-				color: $darkBlue;
-				background-color: $lightBlue;
-			}
-		}
-	}
-}
-.content-box {
-	box-shadow: 0 0 .5*$em .1*$em $darkBlue;
-}
-.content-header {
-	box-shadow: 0 .1*$em .4*$em -.05*$em $darkBlue;
-}
-/* footer ----------------------------*/
-footer{
-	box-shadow: 0 -.1*$em .4*$em -.05*$em $darkBlue;
-}
+// header {
+// 	z-index: 1;
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	width: 100%;
+// 	box-shadow: 0 .1*$em .4*$em -.05*$em $darkBlue;
+// 	nav {
+// 		a {
+// 			color: $veryLightBlue;
+// 			&:hover {
+// 				color: $darkBlue;
+// 				background-color: $lightBlue;
+// 			}
+// 		}
+// 	}
+// }
+// .content-box {
+// 	box-shadow: 0 0 .5*$em .1*$em $darkBlue;
+// }
+// .content-header {
+// 	box-shadow: 0 .1*$em .4*$em -.05*$em $darkBlue;
+// }
+// /* footer ----------------------------*/
+// footer{
+// 	box-shadow: 0 -.1*$em .4*$em -.05*$em $darkBlue;
+// }
 /* hover events ----------------------------*/
 
 /*///////////////////////// responsive styling /////////////////////////*/
