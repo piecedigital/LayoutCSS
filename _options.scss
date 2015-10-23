@@ -72,6 +72,9 @@
 	width: 100%;
 	height: 100%;
 }
+.fullwidth {
+	width: 100%;
+}
 .fullheight {
 	height: 100%;
 }
@@ -89,4 +92,15 @@
 }
 .clear-whitespace {
 	margin-right: -4px;
+}
+.fixed-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+@for $i from 0 through 10 {
+	.z-index-#{$i} {
+		z-index: ($i);
+	}
 }
