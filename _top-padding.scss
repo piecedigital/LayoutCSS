@@ -1,5 +1,5 @@
 ///* top */
-@for $i from 0 through 50 {
+@for $i from 0 through 40 {
 	@for $d from 0 through 9 {
 		.top-pad-#{$i}_#{$d} {
 			padding-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
