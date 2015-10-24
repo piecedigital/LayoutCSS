@@ -2,7 +2,7 @@
 
 ##What is LayoutCSS?
 
-LayoutCSS is a fairly verbose and literal CSS framework, designed to make sense semantically. LayoutCSS started off as my own personal CSS framework for quickly piecing together a website layout. I found it to be very clear and verbose so I'm releasing it now as an open-source option for those who might like that aspect of a CSS framework.
+LayoutCSS is a fairly verbose and literal CSS library, designed to make sense semantically. LayoutCSS started off as my own personal CSS library for quickly piecing together a website layout. I found it to be very clear and verbose so I'm releasing it now as an open-source option for those who might like that aspect of a CSS library.
 
 ___
 
