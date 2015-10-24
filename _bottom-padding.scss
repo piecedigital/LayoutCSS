@@ -1,5 +1,5 @@
 ///* bottom */
-@for $i from 0 through 5 {
+@for $i from 0 through 50 {
 	@for $d from 0 through 9 {
 		.bottom-pad-#{$i}_#{$d} {
 			padding-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));

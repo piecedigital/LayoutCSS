@@ -1,0 +1,37 @@
+.pos-relative {
+	position: relative;
+}
+.pos-absolute {
+	position: absolute;
+}
+.pos-fixed {
+	position: fixed;
+}
+@for $i from 0 through 50 {
+	@for $d from 0 through 9 {
+		.top-#{$i}_#{$d} {
+			top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+		}
+	}
+}
+@for $i from 0 through 50 {
+	@for $d from 0 through 9 {
+		.bottom-#{$i}_#{$d} {
+			bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+		}
+	}
+}
+@for $i from 0 through 50 {
+	@for $d from 0 through 9 {
+		.left-#{$i}_#{$d} {
+			left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+		}
+	}
+}
+@for $i from 0 through 50 {
+	@for $d from 0 through 9 {
+		.right-#{$i}_#{$d} {
+			right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+		}
+	}
+}
