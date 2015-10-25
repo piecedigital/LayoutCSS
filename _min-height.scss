@@ -1,0 +1,7 @@
+@for $i from 0 through 80 {
+	@for $d from 0 through 9 {
+		.min-height-#{$i}_#{$d} {
+			min-height: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+		}
+	}
+}

@@ -101,3 +101,30 @@
 		z-index: ($i);
 	}
 }
+.overflow-hidden {
+	overflow: hidden;
+}
+.overflow-x-hidden {
+	overflow: hidden;
+}
+.overflow-y-hidden {
+	overflow: hidden;
+}
+.overflow-auto {
+	overflow: auto;
+}
+.overflow-x-auto {
+	overflow: auto;
+}
+.overflow-y-auto {
+	overflow: auto;
+}
+.overflow-scroll {
+	overflow: scroll;
+}
+.overflow-x-scroll {
+	overflow: scroll;
+}
+.overflow-y-scroll {
+	overflow: scroll;
+}
