@@ -2,7 +2,7 @@
 
 LayoutCSS makes it easy to know what you're using and what it's doing. Almost every class is similar to their corresponding CSS property. This method of semantics aims to eliminate the trouble of having to recall what a chosen class does because its role is so explicit.
 
-The main unique thing about LayoutCSS that you should know is how number values work. Pretty much, numbers in the classes are represented like float values, but instead of a period (because you can't do that with CSS) it's an underscore. The resulting value from the this type of class is equal to `float * 16`.
+The main unique thing about LayoutCSS that you should know is how number values work. Pretty much, numbers in the classes are represented like float values, but instead of a decimal (because you can't do that with CSS) it's an underscore. The resulting value from the this type of class is equal to `float * 16`.
 
 For example:
 
