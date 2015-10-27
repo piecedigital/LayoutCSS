@@ -1,0 +1,31 @@
+{
+  "name": "LayoutCSS",
+  "version": "0.1.0",
+  "description": "A semantically verbose CSS library for simple and easy web page layouts.",
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "library",
+    "front-end",
+    "html",
+    "style",
+    "design"
+  ],
+  "engines": {
+    "node": "^4.x.x"
+  },
+  "dependencies": {
+    "node-sass": "^3.3.2",
+  },
+  "author": {
+    "name": "Darryl Dixon",
+    "email": "piecedigitalstudios@gmail.com",
+    "url": "http://piecedigital.github.io"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.3"
+  }
+}
