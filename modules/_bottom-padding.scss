@@ -1,8 +1,11 @@
 ///* bottom */
-@for $i from 0 through 40 {
+@for $i from 0 through 39 {
 	@for $d from 0 through 9 {
 		.bottom-pad-#{$i}_#{$d} {
-			padding-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			padding-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.bottom-pad-40_0 {
+	padding-bottom: 40*16px;
 }

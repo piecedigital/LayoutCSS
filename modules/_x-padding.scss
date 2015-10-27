@@ -1,9 +1,13 @@
 ///* x-axis */
-@for $i from 0 through 10 {
+@for $i from 0 through 9 {
 	@for $d from 0 through 9 {
 		.x-pad-#{$i}_#{$d} {
-			padding-left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
-			padding-right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			padding-left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
+			padding-right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.x-pad-10_0 {
+	padding-left: 10*16px;
+	padding-right: 10*16px;
 }

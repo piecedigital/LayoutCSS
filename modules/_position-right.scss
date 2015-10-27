@@ -1,0 +1,10 @@
+@for $i from 0 through 49 {
+	@for $d from 0 through 9 {
+		.pos-right-#{$i}_#{$d} {
+			right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
+		}
+	}
+}
+.pos-right-50_0 {
+	right: 50*16px;
+}

@@ -1,8 +1,11 @@
 ///* bottom */
-@for $i from 0 through 5 {
+@for $i from 0 through 4 {
 	@for $d from 0 through 9 {
 		.bottom-marg-#{$i}_#{$d} {
-			margin-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			margin-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.bottom-marg-5_0 {
+	margin-bottom: 5*16px;
 }

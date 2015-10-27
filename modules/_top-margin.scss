@@ -1,8 +1,11 @@
 ///* top */
-@for $i from 0 through 5 {
+@for $i from 0 through 4 {
 	@for $d from 0 through 9 {
 		.top-marg-#{$i}_#{$d} {
-			margin-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			margin-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.top-marg-5_0 {
+	margin-top: 5*16px;
 }

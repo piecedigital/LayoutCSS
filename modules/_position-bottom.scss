@@ -1,0 +1,10 @@
+@for $i from 0 through 49 {
+	@for $d from 0 through 9 {
+		.pos-bottom-#{$i}_#{$d} {
+			bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
+		}
+	}
+}
+.pos-bottom-50_0 {
+	bottom: 50*16px;
+}

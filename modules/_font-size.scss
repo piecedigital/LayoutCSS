@@ -2,7 +2,10 @@
 @for $i from 0 through 3 {
 	@for $d from 0 through 9 {
 		.font-size-#{$i}_#{$d} {
-			font-size: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			font-size: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.font-size-4_0 {
+	font-size: 4*16px;
 }

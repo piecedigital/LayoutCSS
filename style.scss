@@ -1,7 +1,4 @@
 //////////////////////// Sass Prerequisites //////////////////////////
-/* font size */
-$em: 16px;
-
 // scrollbar and selection restyling
 @import "_mixins";
 ///////////////////// Main Styling /////////////////////////////////
@@ -14,66 +11,6 @@ $em: 16px;
 /* custom styles */
 @import "_defaults";
 @import "_scrollbar";
-
-body {
-	margin: 0;
-	background: $lightBlue;
-	color: rgba(40, 40, 40, 1);
-}
-
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
-}
-
-header, section, footer {
-	display: block;
-}
-.page-wrap {
-	position: relative;
-	display: block;
-	max-width: 1200px;
-	margin: 0 auto;
-	pointer-events: auto;
-}
-.mid-blue {
-	color: $midBlue;
-}
-.mid-blue-bg {
-	background: $midBlue;
-}
-.dim-blue {
-	color: $dimBlue;
-}
-.dim-blue-bg {
-	background: $dimBlue;
-}
-.light-blue {
-	color: $lightBlue;
-}
-.light-blue-bg {
-	background: $lightBlue;
-}
-.tinted-blue {
-	color: $tintedBlue;
-}
-.tinted-blue-bg {
-	background: $tintedBlue;
-}
-.very-light-blue {
-	color: $veryLightBlue;
-}
-.very-light-blue-bg {
-	background: $veryLightBlue;
-}
-.dark-blue {
-	color: $darkBlue;
-}
-.dark-blue-bg {
-	background: $darkBlue;
-}
-/* end custom styles */
 
 /* column styles */
 @import "_columns.scss";

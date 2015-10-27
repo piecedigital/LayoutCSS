@@ -1,7 +1,10 @@
-@for $i from 0 through 80 {
+@for $i from 0 through 79 {
 	@for $d from 0 through 9 {
 		.height-#{$i}_#{$d} {
-			height: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			height: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.height-80_0 {
+	height: 80*16px;
 }

@@ -42,7 +42,7 @@
 	@extend .border-radius-1_5;
 }
 
-@for $i from 0 through 10 {
+@for $i from 0 through 9 {
 	@for $d from 0 through 9 {
 		.widen-btn-#{$i}_#{$d} {
 			@extend .x-pad-#{$i}_#{$d};
@@ -50,6 +50,9 @@
 	}
 }
 
+.widen-btn-10_0 {
+	@extend .x-pad-10_0;
+}
 .full-width-btn {
 	width: 100%;
 }

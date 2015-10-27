@@ -2,7 +2,10 @@
 @for $i from 0 through 3 {
 	@for $d from 0 through 9 {
 		.border-radius-#{$i}_#{$d} {
-			border-radius: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			border-radius: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.border-radius-4_0 {
+	border-radius: 4*16px;
 }

@@ -1,8 +1,11 @@
 ///* left */
-@for $i from 0 through 5 {
+@for $i from 0 through 4 {
 	@for $d from 0 through 9 {
 		.left-marg-#{$i}_#{$d} {
-			margin-left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			margin-left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.left-marg-5_0 {
+	margin-left: 5*16px;
 }

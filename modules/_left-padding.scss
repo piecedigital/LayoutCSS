@@ -1,8 +1,11 @@
 ///* left */
-@for $i from 0 through 40 {
+@for $i from 0 through 39 {
 	@for $d from 0 through 9 {
 		.left-pad-#{$i}_#{$d} {
-			padding-left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			padding-left: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.left-pad-40_0 {
+	padding-left: 40*16px;
 }

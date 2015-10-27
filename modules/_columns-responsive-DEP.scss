@@ -1,5 +1,25 @@
 // THIS FILE DEPENDANT ON THE "_mixins.scss" MODULE
 /*///////////////////////// responsive styling /////////////////////////*/
+.col-4-3-2-1 {
+	display: inline-block;
+	width: 25%;
+}
+.col-4-2-1 {
+	display: inline-block;
+	width: 25%;
+}
+.col-4-2 {
+	display: inline-block;
+	width: 25%;
+}
+.col-3-2-1 {
+	display: inline-block;
+	width: 33.3333333333%;
+}
+.col-2-1 {
+	display: inline-block;
+	width: 50%;
+}
 @include media-max(1024px) {
 	.col-4-3-2-1 {
 		display: inline-block;
@@ -42,5 +62,5 @@
 		width: 100%;
 	}
 }
-@include media-max(480px) {
-}
+//@include media-max(480px) {
+//}

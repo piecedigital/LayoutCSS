@@ -1,8 +1,11 @@
 ///* right */
-@for $i from 0 through 40 {
+@for $i from 0 through 39 {
 	@for $d from 0 through 9 {
 		.right-pad-#{$i}_#{$d} {
-			padding-right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			padding-right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.right-pad-40_0 {
+	padding-right: 40*16px;
 }

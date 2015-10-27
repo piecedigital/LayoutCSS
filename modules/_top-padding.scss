@@ -1,8 +1,11 @@
 ///* top */
-@for $i from 0 through 40 {
+@for $i from 0 through 39 {
 	@for $d from 0 through 9 {
 		.top-pad-#{$i}_#{$d} {
-			padding-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			padding-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.top-pad-40_0 {
+	padding-top: 40*16px;
 }

@@ -1,8 +1,11 @@
 ///* right */
-@for $i from 0 through 5 {
+@for $i from 0 through 4 {
 	@for $d from 0 through 9 {
 		.right-marg-#{$i}_#{$d} {
-			margin-right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			margin-right: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.right-marg-5_0 {
+	margin-right: 5*16px;
 }

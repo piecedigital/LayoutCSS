@@ -1,9 +1,13 @@
 ///* y-axis */
-@for $i from 0 through 10 {
+@for $i from 0 through 9 {
 	@for $d from 0 through 9 {
 		.y-marg-#{$i}_#{$d} {
-			margin-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
-			margin-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			margin-top: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
+			margin-bottom: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.y-marg-10_0 {
+	margin-top: 10*16px;
+	margin-bottom: 10*16px;
 }

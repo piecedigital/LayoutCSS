@@ -47,6 +47,12 @@
 	-webkit-transform: rotate($val1) translate($val2);
 	transform: rotate($val1) translate($val2);
 }
+@mixin transformSRT($val1, $val2, $val3...) {
+	-ms-transform: scale($val1) rotate($val2) translate($val3);
+	-moz-transform: scale($val1) rotate($val2) translate($val3);
+	-webkit-transform: scale($val1) rotate($val2) translate($val3);
+	transform: scale($val1) rotate($val2) translate($val3);
+}
 @mixin media-min($val) {
 	@media screen and (min-width: $val) {
 		@content;
@@ -78,10 +84,10 @@
 	}
 }
 @mixin background-gradient($deg, $colors...) {
+	background: linear-gradient($deg, $colors);
 	-ms-background: linear-gradient($deg, $colors);
 	-moz-background: linear-gradient($deg, $colors);
 	-webkit-background: linear-gradient($deg, $colors);
-	background: linear-gradient($deg, $colors);
 }
 @mixin linear-gradient($deg, $colors...) {
 	background: linear-gradient($deg, $colors);
@@ -92,11 +98,6 @@
 	transition: $val;
   -webkit-transition: $val;
   -moz-transition: $val;
-}
-@mixin columnWidth($val) {
-	column-width: $val;
-	-webkit-column-width: $val;
-	-moz-column-width: $val;
 }
 
 @mixin appearance($val) {

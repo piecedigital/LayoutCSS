@@ -15,6 +15,21 @@ ___
 ##How do I use it?
 
 Check out the [Getting Started](https://github.com/piecedigital/layoutcss/wiki/getting-started) guide in the Wiki(WIP).
+___
+
+#Directory
+
+* [Options](https://github.com/piecedigital/layoutcss/wiki/options)
+* [Border Box](https://github.com/piecedigital/layoutcss/wiki/border-box)
+* [Border Radius](https://github.com/piecedigital/layoutcss/wiki/border-radius)
+* [Margins](https://github.com/piecedigital/layoutcss/wiki/margins)
+* [Paddings](https://github.com/piecedigital/layoutcss/wiki/paddings)
+* [Buttons](https://github.com/piecedigital/layoutcss/wiki/buttons)
+* [Columns](https://github.com/piecedigital/layoutcss/wiki/columns)
+* [Font Size](https://github.com/piecedigital/layoutcss/wiki/font-size)
+* [Widths and Heights](https://github.com/piecedigital/layoutcss/wiki/widths-and-heights)
+* [Mixins](https://github.com/piecedigital/layoutcss/wiki/mixins)
+* [Positions](https://github.com/piecedigital/layoutcss/wiki/positions)
 
 ___
 

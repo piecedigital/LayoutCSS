@@ -1,7 +1,10 @@
-@for $i from 0 through 80 {
+@for $i from 0 through 79 {
 	@for $d from 0 through 9 {
 		.min-width-#{$i}_#{$d} {
-			min-width: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			min-width: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.min-width-80_0 {
+	min-width: 80*16px;
 }

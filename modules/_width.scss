@@ -1,7 +1,10 @@
-@for $i from 0 through 80 {
+@for $i from 0 through 79 {
 	@for $d from 0 through 9 {
 		.width-#{$i}_#{$d} {
-			width: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + $em));
+			width: round(($i) + ($d * .1) + ($i+($d * .1))*(-1 + 16px));
 		}
 	}
+}
+.width-80_0 {
+	width: 80*16px;
 }
