@@ -14,7 +14,7 @@ ___
 
 ##How do I use it?
 
-I'll be creating some documentation for it as time progresses.
+Check out the [Getting Started]("/wiki/getting-started") guide in the Wiki(WIP).
 
 ___
 
