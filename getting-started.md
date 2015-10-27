@@ -32,7 +32,7 @@ ___
 
 #Modularity
 
-LayoutCSS is written in Sass(SCSS) and is broken up into several separate modules. You can `@import` these modules as needed. The default `style.scss` file that comes with LayoutCSS has every module included by default, and some predefined media queries (created from the LayoutCSS `_mixins.scss` module ;) ), so you may want to look through the file to see what you need and don't need. It's also layed out in a way that I like to write my Sass but feel free to switch things up, or start from scratch!
+LayoutCSS is written in Sass(SCSS) and is broken up into several separate modules. You can `@import` these modules as needed. The default `style.scss` file that comes with LayoutCSS has every module included by default, and some predefined media queries (created from the LayoutCSS `_mixins.scss` module ;) ), so you may want to look through the file to see what you need and don't need. It's also laid out in a way that I like to write my Sass but feel free to switch things up, or start from scratch!
 ___
 #Dependencies
 
