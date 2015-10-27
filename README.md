@@ -14,7 +14,10 @@ ___
 
 ##How do I use it?
 
-Check out the [Getting Started](https://github.com/piecedigital/layoutcss/wiki/getting-started) guide in the Wiki(WIP).
+Check out the [Getting Started](https://github.com/piecedigital/layoutcss/wiki/getting-started) guide in the Wiki.
+___
+
+LayoutCSS is still a work in progress so be sure to star it, share it, and stay tuned!
 ___
 
 #Directory
