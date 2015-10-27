@@ -14,7 +14,7 @@ ___
 
 ##How do I use it?
 
-Check out the [Getting Started](getting-started) guide in the Wiki(WIP).
+Check out the [Getting Started](https://github.com/piecedigital/wiki/getting-started) guide in the Wiki(WIP).
 
 ___
 
