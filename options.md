@@ -402,3 +402,13 @@
 ``` html
 <div class="overflow-scroll-y">...</div>
 ```
+
+
+* **.cursor-pointer**
+
+> Sets a given element to turn the cursor into a pointer
+
+######Usage
+``` html
+<div class="cursor-pointer">...</div>
+```
