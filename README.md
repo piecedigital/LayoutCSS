@@ -33,6 +33,7 @@ ___
 * [Widths and Heights](https://github.com/piecedigital/layoutcss/wiki/widths-and-heights)
 * [Mixins](https://github.com/piecedigital/layoutcss/wiki/mixins)
 * [Positions](https://github.com/piecedigital/layoutcss/wiki/positions)
+* [Colors](https://github.com/piecedigital/layoutcss/wiki/colors)
 
 ___
 

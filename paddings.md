@@ -1,5 +1,14 @@
 #Paddings
 
+##Modules
+
+* _x-padding.scss
+* _y-padding.scss
+* _top-padding.scss
+* _right-padding.scss
+* _bottom-padding.scss
+* _left-padding.scss
+
 ##Available styles
 
 

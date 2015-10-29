@@ -1,5 +1,10 @@
 #Columns and Responsive Columns (DEPENDENT)
 
+##Modules
+
+* _columns.scss
+* _columns-responsive-DEP.scss
+
 ##Dependencies (responsive columns)
 * _x-padding.scss
 * _y-padding.scss

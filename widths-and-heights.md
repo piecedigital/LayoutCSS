@@ -1,5 +1,14 @@
 #Widths and Heights
 
+##Modules
+
+* _width.scss
+* _min-width.scss
+* _max-width.scss
+* _height.scss
+* _min-height.scss
+* _max-height.scss
+
 ##Available styles
 
 * **.width-x_x**

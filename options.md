@@ -1,6 +1,20 @@
 #Options
 
+##Modules
+
+* _options.scss
+
 ##Available styles
+
+
+* **.page-wrap**
+
+> Sets an element to a standard maximum width for a page view, and centers it
+
+######Usage
+``` html
+<div class="page-wrap"><img ... /></div>
+```
 
 
 * **.img-contain**
@@ -20,6 +34,16 @@
 ######Usage
 ``` html
 <div class="img-cover">...</div>
+```
+
+
+* **.margin-center**
+
+> Centers an element if it's display is block
+
+######Usage
+``` html
+<div class="margin-center">...</div>
 ```
 
 
@@ -267,6 +291,16 @@
 ######Usage
 ``` html
 <footer class="fixed-footer">...</footer>
+```
+
+
+* **.opacity-0_x**
+
+> Sets a given element with an opacity of x.x
+
+######Usage
+``` html
+<footer class="opacity-0_5">...</footer>
 ```
 
 

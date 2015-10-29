@@ -1,3 +1,8 @@
+.page-wrap-1200 {
+	display: block;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .img-contain img{
 	max-width: 100%;
 	max-height: 100%;
@@ -5,6 +10,9 @@
 .img-cover img{
 	max-width: 100%;
 	text-align: center;
+}
+.margin-center {
+	margin: 0 auto;
 }
 .left-justify {
 	text-align: left;
@@ -100,6 +108,14 @@
 	.z-index-#{$i} {
 		z-index: ($i);
 	}
+}
+@for $i from 0 through 9 {
+	.opacity-0_#{$i} {
+		opacity: ($i * .1);
+	}
+}
+.opacity-1_0 {
+	opacity: 1;
 }
 .overflow-hidden {
 	overflow: hidden;
