@@ -1,7 +1,8 @@
 @for $i from 0 through 9 {
   .arrow-right-0_#{$i} {
+    display: inline-block;
     position: relative;
-    height: 28px;
+    height: 30px;
     width: 18px;
     overflow: hidden;
     -ms-transform: rotate(0deg) scale(($i * .1));
@@ -11,33 +12,34 @@
     &:after {
       position: absolute;
       top: 6px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(45);
-      -moz-transform: rotate(45);
-      -webkit-transform: rotate(45);
-      transform: rotate(45);
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
     }
     &:before {
       position: absolute;
       top: 15px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(-45);
-      -moz-transform: rotate(-45);
-      -webkit-transform: rotate(-45);
-      transform: rotate(-45);
+      -ms-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
   }
   .arrow-up-0_#{$i} {
+    display: inline-block;
     position: relative;
-    height: 28px;
+    height: 30px;
     width: 18px;
     overflow: hidden;
     -ms-transform: rotate(90deg) scale(($i * .1));
@@ -47,33 +49,34 @@
     &:after {
       position: absolute;
       top: 6px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(45);
-      -moz-transform: rotate(45);
-      -webkit-transform: rotate(45);
-      transform: rotate(45);
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
     }
     &:before {
       position: absolute;
       top: 15px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(-45);
-      -moz-transform: rotate(-45);
-      -webkit-transform: rotate(-45);
-      transform: rotate(-45);
+      -ms-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
   }
   .arrow-left-0_#{$i} {
+    display: inline-block;
     position: relative;
-    height: 28px;
+    height: 30px;
     width: 18px;
     overflow: hidden;
     -ms-transform: rotate(180deg) scale(($i * .1));
@@ -83,33 +86,34 @@
     &:after {
       position: absolute;
       top: 6px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(45);
-      -moz-transform: rotate(45);
-      -webkit-transform: rotate(45);
-      transform: rotate(45);
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
     }
     &:before {
       position: absolute;
       top: 15px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(-45);
-      -moz-transform: rotate(-45);
-      -webkit-transform: rotate(-45);
-      transform: rotate(-45);
+      -ms-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
   }
   .arrow-down-0_#{$i} {
+    display: inline-block;
     position: relative;
-    height: 28px;
+    height: 30px;
     width: 18px;
     overflow: hidden;
     -ms-transform: rotate(270deg) scale(($i * .1));
@@ -119,34 +123,35 @@
     &:after {
       position: absolute;
       top: 6px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(45);
-      -moz-transform: rotate(45);
-      -webkit-transform: rotate(45);
-      transform: rotate(45);
+      -ms-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
     }
     &:before {
       position: absolute;
       top: 15px;
-      left: -4px;
+      left: -6px;
       content: "";
       background: black;
       width: 20px;
       height: 8px;
-      -ms-transform: rotate(-45);
-      -moz-transform: rotate(-45);
-      -webkit-transform: rotate(-45);
-      transform: rotate(-45);
+      -ms-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
     }
   }
 }
-.arrow-1_0-right {
+.arrow-right-1_0 {
+  display: inline-block;
   position: relative;
-  height: 28px;
+  height: 30px;
   width: 18px;
   overflow: hidden;
   -ms-transform: rotate(0deg) scale(1);
@@ -156,33 +161,34 @@
   &:after {
     position: absolute;
     top: 6px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(45);
-    -moz-transform: rotate(45);
-    -webkit-transform: rotate(45);
-    transform: rotate(45);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &:before {
     position: absolute;
     top: 15px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(-45);
-    -moz-transform: rotate(-45);
-    -webkit-transform: rotate(-45);
-    transform: rotate(-45);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }
-.arrow-1_0-up {
+.arrow-up-1_0 {
+  display: inline-block;
   position: relative;
-  height: 28px;
+  height: 30px;
   width: 18px;
   overflow: hidden;
   -ms-transform: rotate(90deg) scale(1);
@@ -192,33 +198,34 @@
   &:after {
     position: absolute;
     top: 6px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(45);
-    -moz-transform: rotate(45);
-    -webkit-transform: rotate(45);
-    transform: rotate(45);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &:before {
     position: absolute;
     top: 15px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(-45);
-    -moz-transform: rotate(-45);
-    -webkit-transform: rotate(-45);
-    transform: rotate(-45);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }
-.arrow-1_0-left {
+.arrow-left-1_0 {
+  display: inline-block;
   position: relative;
-  height: 28px;
+  height: 30px;
   width: 18px;
   overflow: hidden;
   -ms-transform: rotate(180deg) scale(1);
@@ -228,33 +235,34 @@
   &:after {
     position: absolute;
     top: 6px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(45);
-    -moz-transform: rotate(45);
-    -webkit-transform: rotate(45);
-    transform: rotate(45);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &:before {
     position: absolute;
     top: 15px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(-45);
-    -moz-transform: rotate(-45);
-    -webkit-transform: rotate(-45);
-    transform: rotate(-45);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }
-.arrow-1_0-down {
+.arrow-down-1_0 {
+  display: inline-block;
   position: relative;
-  height: 28px;
+  height: 30px;
   width: 18px;
   overflow: hidden;
   -ms-transform: rotate(270deg) scale(1);
@@ -264,27 +272,27 @@
   &:after {
     position: absolute;
     top: 6px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(45);
-    -moz-transform: rotate(45);
-    -webkit-transform: rotate(45);
-    transform: rotate(45);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   &:before {
     position: absolute;
     top: 15px;
-    left: -4px;
+    left: -6px;
     content: "";
     background: black;
     width: 20px;
     height: 8px;
-    -ms-transform: rotate(-45);
-    -moz-transform: rotate(-45);
-    -webkit-transform: rotate(-45);
-    transform: rotate(-45);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 }

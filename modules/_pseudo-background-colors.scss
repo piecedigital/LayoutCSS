@@ -1,0 +1,12 @@
+$inc: 0;
+@for $r from 0 through 25 {
+	@for $g from 0 through 25 {
+		@for $b from 0 through 25 {
+			.pseudo-rgb-bg-#{(($r + $inc) * 10)}_#{(($g + $inc) * 10)}_#{(($b + $inc) * 10)} {
+				&:before, &:after {
+					background-color: rgba((($r + $inc) * 10), (($g + $inc) * 10), (($b + $inc) * 10), 1);
+				}
+			}
+		}
+	}
+}
