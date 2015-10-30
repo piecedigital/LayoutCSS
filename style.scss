@@ -20,46 +20,65 @@ $em: 16px;
 //@import "modules/_position-right.scss";
 //@import "modules/_position-bottom.scss";
 
+/* arrows */
+@import "modules/_arrows.scss";
 
 /* colors */
 @import "modules/_colors.scss";
 @import "modules/_background-colors.scss";
+@import "modules/_pseudo-background-colors.scss";
+
 /* column styles */
 @import "modules/_columns.scss";
+
 /* width styles */
 @import "modules/_width.scss";
-@import "modules/_min-width.scss";
+//@import "modules/_min-width.scss";
 @import "modules/_max-width.scss";
+
 /* height styles */
 @import "modules/_height.scss";
 @import "modules/_min-height.scss";
-@import "modules/_max-height.scss";
+//@import "modules/_max-height.scss";
+
 /* font styles */
 @import "modules/_font-size.scss";
+
 /* padding styles */
 /* x-axis */
 @import "modules/_x-padding.scss";
+
 /* y-axis */
 @import "modules/_y-padding.scss";
+
 /* top */
 @import "modules/_top-padding.scss";
+
 /* bottom */
 @import "modules/_bottom-padding.scss";
+
 /* left */
 @import "modules/_left-padding.scss";
+
 /* right */
 @import "modules/_right-padding.scss";
+
 /* margin styles */
 /* x-axis */
 @import "modules/_x-margin.scss";
+
 /* y-axis */
 @import "modules/_y-margin.scss";
+
 /* top */
 @import "modules/_top-margin.scss";
+
 /* bottom */
 @import "modules/_bottom-margin.scss";
+
 /* left */
 @import "modules/_left-margin.scss";
+
 /* right */
 @import "modules/_right-margin.scss";
 
@@ -67,7 +86,7 @@ $em: 16px;
 /* border radius */
 @import "modules/_border-radius.scss";
 
-///* buttons */
+/* buttons */
 @import "modules/_buttons-DEP.scss";
 
 /*///////////////////////// content styling /////////////////////////*/
