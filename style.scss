@@ -1,69 +1,81 @@
 //////////////////////// Sass Prerequisites //////////////////////////
+/* font size */
+$em: 16px;
+
 // scrollbar and selection restyling
-@import "_mixins";
+@import "modules/_mixins";
 ///////////////////// Main Styling /////////////////////////////////
 /*///////////////////////// prerequisites /////////////////////////*/
-
-/* optional styles */
-@import "_options.scss";
-@import "_position.scss";
-
 /* custom styles */
 @import "_defaults";
 @import "_scrollbar";
+/* end custom styles */
 
+/* optional styles */
+@import "modules/_options.scss";
+/* position */
+@import "modules/_position.scss";
+@import "modules/_position-top.scss";
+@import "modules/_position-left.scss";
+//@import "modules/_position-right.scss";
+//@import "modules/_position-bottom.scss";
+
+
+/* colors */
+@import "modules/_colors.scss";
+@import "modules/_background-colors.scss";
 /* column styles */
-@import "_columns.scss";
+@import "modules/_columns.scss";
 /* width styles */
-@import "_width.scss";
-@import "_min-width.scss";
-@import "_max-width.scss";
+@import "modules/_width.scss";
+@import "modules/_min-width.scss";
+@import "modules/_max-width.scss";
 /* height styles */
-@import "_height.scss";
-@import "_min-height.scss";
-@import "_max-height.scss";
+@import "modules/_height.scss";
+@import "modules/_min-height.scss";
+@import "modules/_max-height.scss";
 /* font styles */
-@import "_font-size.scss";
+@import "modules/_font-size.scss";
 /* padding styles */
 /* x-axis */
-@import "_x-padding.scss";
+@import "modules/_x-padding.scss";
 /* y-axis */
-@import "_y-padding.scss";
+@import "modules/_y-padding.scss";
 /* top */
-@import "_top-padding.scss";
+@import "modules/_top-padding.scss";
 /* bottom */
-@import "_bottom-padding.scss";
+@import "modules/_bottom-padding.scss";
 /* left */
-@import "_left-padding.scss";
+@import "modules/_left-padding.scss";
 /* right */
-@import "_right-padding.scss";
+@import "modules/_right-padding.scss";
 /* margin styles */
 /* x-axis */
-@import "_x-margin.scss";
+@import "modules/_x-margin.scss";
 /* y-axis */
-@import "_y-margin.scss";
+@import "modules/_y-margin.scss";
 /* top */
-@import "_top-margin.scss";
+@import "modules/_top-margin.scss";
 /* bottom */
-@import "_bottom-margin.scss";
+@import "modules/_bottom-margin.scss";
 /* left */
-@import "_left-margin.scss";
+@import "modules/_left-margin.scss";
 /* right */
-@import "_right-margin.scss";
+@import "modules/_right-margin.scss";
 
 
 /* border radius */
-@import "_border-radius.scss";
+@import "modules/_border-radius.scss";
 
 ///* buttons */
-@import "_buttons-DEP.scss";
+@import "modules/_buttons-DEP.scss";
 
 /*///////////////////////// content styling /////////////////////////*/
 /* body ----------------------------*/
 /* hover events ----------------------------*/
 
 /*///////////////////////// responsive styling /////////////////////////*/
-@import "columns-responsive-DEP.scss";
+@import "modules/columns-responsive-DEP.scss";
 @include media-max(1024px) {
 	/* prereqs ----------------------------*/
 	/* header ----------------------------*/

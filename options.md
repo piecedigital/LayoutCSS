@@ -298,6 +298,8 @@
 
 > Sets a given element with an opacity of x.x
 
+> Goes up to 1.0
+
 ######Usage
 ``` html
 <footer class="opacity-0_5">...</footer>
