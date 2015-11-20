@@ -1,6 +1,6 @@
 {
   "name": "layoutcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A semantically verbose CSS library for simple and easy web page layouts.",
   "keywords": [
     "css",
