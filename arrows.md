@@ -1,10 +1,10 @@
-#Arrows
+# Arrows
 
-##Modules
+## Modules
 
 * _arrows.scss
 
-##Available styles
+## Available styles
 
 
 * **.arrow-x-y_y**
@@ -13,7 +13,7 @@
 
 > Goes up to 1.0
 
-######Usage
+###### Usage
 ``` html
 <footer class="arrow-right-0_5">...</footer>
 ```

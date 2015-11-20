@@ -1,6 +1,6 @@
-#Widths and Heights
+# Widths and Heights
 
-##Modules
+## Modules
 
 * _width.scss
 * _min-width.scss
@@ -9,7 +9,7 @@
 * _min-height.scss
 * _max-height.scss
 
-##Available styles
+## Available styles
 
 * **.width-x_x**
 * **.min-width-x_x**
@@ -22,7 +22,7 @@
 
 > Goes up to 80.0
 
-######Usage
+###### Usage
 ``` html
 <div class="min-width-1_0">...</div>
 ```

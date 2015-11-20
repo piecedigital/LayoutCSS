@@ -1,6 +1,6 @@
-#Margins
+# Margins
 
-##Modules
+## Modules
 
 * _x-margin.scss
 * _y-margin.scss
@@ -9,7 +9,7 @@
 * _bottom-margin.scss
 * _left-margin.scss
 
-##Available styles
+## Available styles
 
 
 * **.x-marg-x_x**
@@ -18,7 +18,7 @@
 
 > Goes up to 10.0
 
-######Usage
+###### Usage
 ``` html
 <div class="x-marg-1_0">...</div>
 ```
@@ -30,7 +30,7 @@
 
 > Goes up to 10.0
 
-######Usage
+###### Usage
 ``` html
 <div class="y-marg-1_0">...</div>
 ```
@@ -42,7 +42,7 @@
 
 > Goes up to 5.0
 
-######Usage
+###### Usage
 ``` html
 <div class="top-marg-1_0">...</div>
 ```
@@ -54,7 +54,7 @@
 
 > Goes up to 5.0
 
-######Usage
+###### Usage
 ``` html
 <div class="right-marg-1_0">...</div>
 ```
@@ -66,7 +66,7 @@
 
 > Goes up to 5.0
 
-######Usage
+###### Usage
 ``` html
 <div class="bottom-marg-1_0">...</div>
 ```
@@ -78,7 +78,7 @@
 
 > Goes up to 5.0
 
-######Usage
+###### Usage
 ``` html
 <div class="left-marg-1_0">...</div>
 ```

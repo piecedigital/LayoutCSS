@@ -1,10 +1,10 @@
-#Mixins
+# Mixins
 
-##Description
+## Description
 
 These mixins generally have extra code in them with vendor prefixes. Use these mixins in your custom styles.
 
-##Available styles
+## Available styles
 
 * **@mixin border-radius($val...)**
 
@@ -14,7 +14,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include border-radius(10px);
@@ -35,7 +35,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include box-shadow(0 0 8px 0 black);
@@ -51,7 +51,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transformR(90deg);
@@ -67,7 +67,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transformS(2);
@@ -81,7 +81,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transformRS(45deg, 1.5);
@@ -97,7 +97,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Treat it, the value(s), the same as you would manually writing the style property value
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transformT(-50$, -50%);
@@ -111,7 +111,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transformST(1, -50%, 0);
@@ -125,7 +125,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transformRT(180deg, 10px, 10px);
@@ -139,7 +139,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Has vendor prefixes
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transformSRT(3, 270deg, 50%, 50%);
@@ -155,7 +155,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Takes content inside of a block
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include media-min(1024px) {
@@ -173,7 +173,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Takes content inside of a block
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include media-max(540px) {
@@ -191,7 +191,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Treat it, the value(s), the same as you would manually writing the style property value
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include animation(bounce, 1s, infinite);
@@ -207,7 +207,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Treat it, the value(s), the same as you would manually writing the style property value
 
-######Usage
+###### Usage
 ``` sass
 @include keyframes(bounce) {
 	// content
@@ -223,7 +223,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Treat it, the value(s), the same as you would manually writing the style property value
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include background-gradient(90deg, black, green);
@@ -239,7 +239,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Treat it, the value(s), the same as you would manually writing the style property value
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include linear-gradient(90deg, black, green);
@@ -255,7 +255,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 
 > Treat it, the value(s), the same as you would manually writing the style property value
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include transition(.5s all);
@@ -272,7 +272,7 @@ These mixins generally have extra code in them with vendor prefixes. Use these m
 > Treat it, the value(s), the same as you would manually writing the style property value
 
 
-######Usage
+###### Usage
 ``` sass
 {
 	@include appearance(none);

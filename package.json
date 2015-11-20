@@ -1,5 +1,5 @@
 {
-  "name": "LayoutCSS",
+  "name": "layoutcss",
   "version": "1.0.0",
   "description": "A semantically verbose CSS library for simple and easy web page layouts.",
   "keywords": [
@@ -19,9 +19,13 @@
     "email": "piecedigitalstudios@gmail.com",
     "url": "http://piecedigital.github.io"
   },
-  "devDependencies": {
-    "browser-sync": "^2.7.13",
-    "gulp": "^3.9.0",
-    "gulp-nodemon": "^2.0.3"
-  }
+  "homepage": "https://github.com/piecedigital/LayoutCSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piecedigital/LayoutCSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/piecedigital/LayoutCSS/issues"
+  },
+  "license": "MIT"
 }

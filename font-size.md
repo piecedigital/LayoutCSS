@@ -1,6 +1,6 @@
-#Font Size
+# Font Size
 
-##Available styles
+## Available styles
 
 * **.font-size-x_x**
 
@@ -8,7 +8,7 @@
 
 > Goes up to 4.0
 
-######Usage
+###### Usage
 ``` html
 <div class="font-size-1_0">...</div>
 ```

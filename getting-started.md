@@ -1,4 +1,4 @@
-#Getting Started
+# Getting Started
 
 LayoutCSS makes it easy to know what you're using and what it's doing. Almost every class is similar to their corresponding CSS property. This method of semantics aims to eliminate the trouble of having to recall what a chosen class does because its role is so explicit.
 
@@ -30,11 +30,11 @@ This level of clarity is something you can come to expect from LayoutCSS.
 
 ___
 
-#Modularity
+# Modularity
 
 LayoutCSS is written in Sass(SCSS) and is broken up into several separate modules. You can `@import` these modules as needed. The default `style.scss` file that comes with LayoutCSS has every module included by default, and some predefined media queries (created from the LayoutCSS `_mixins.scss` module ;) ), so you may want to look through the file to see what you need and don't need. It's also laid out in a way that I like to write my Sass but feel free to switch things up, or start from scratch!
 ___
-#Dependencies
+# Dependencies
 
 Some modules are dependent on other modules. This is indicated by an all caps "DEP" at the end of a file name (e.g., `_module-DEP.scss`)
 ___
@@ -42,7 +42,7 @@ ___
 Visit the directory to view the specifications of the classes.
 ___
 
-#Directory
+# Directory
 
 * [Options](https://github.com/piecedigital/layoutcss/wiki/options)
 * [Border Box](https://github.com/piecedigital/layoutcss/wiki/border-box)

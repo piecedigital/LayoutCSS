@@ -1,6 +1,6 @@
-#Positions
+# Positions
 
-##Modules
+## Modules
 
 * _position.scss
 * _position-top.scss
@@ -8,7 +8,7 @@
 * _position-bottom.scss
 * _position-left.scss
 
-##Available styles
+## Available styles
 
 * **.pos-relative**
 * **.pos-absolute**
@@ -16,7 +16,7 @@
 
 > Sets the position of a given element to relative, absolute, or fixed
 
-######Usage
+###### Usage
 ``` html
 <div class="pos-relative">...</div>
 ```
@@ -31,7 +31,7 @@
 
 > Goes up to 50.0
 
-######Usage
+###### Usage
 ``` html
 <div class="pos-top-0_0 pos-left-0_0">...</div>
 ```

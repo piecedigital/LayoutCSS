@@ -1,20 +1,20 @@
-#Columns and Responsive Columns (DEPENDENT)
+# Columns and Responsive Columns (DEPENDENT)
 
-##Dependencies (responsive columns)
+## Dependencies (responsive columns)
 * _x-padding.scss
 * _y-padding.scss
 * _border-radius.scss
 
-##Available styles
+## Available styles
 
-#####Responsive Styles
+##### Responsive Styles
 * **.col-4-3-2-1**
 * **.col-4-2-1**
 * **.col-4-2**
 * **.col-3-2-1**
 * **.col-2-1**
 
-#####Static Styles
+##### Static Styles
 * **.col-2**
 * **.col-3**
 * **.col-4**
@@ -29,7 +29,7 @@
 
 > Column classes with only one break point are not dependent on "_columns-responsive-DEP.scss"
 
-######Usage
+###### Usage
 ``` html
 <div class="col-2">...</div><div class="col-2">
 </div>

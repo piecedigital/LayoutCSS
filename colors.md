@@ -1,11 +1,11 @@
-#Colors
+# Colors
 
-##Modules
+## Modules
 
 * _colors.scss
 * _background-colors.scss
 
-##Available styles
+## Available styles
 
 
 * **.rgb-text-x_x_x**
@@ -14,7 +14,7 @@
 
 > Goes up to (250, 250, 250)
 
-######Usage
+###### Usage
 ``` html
 <div class=".rgb-text-40_40_40">...</div>
 ```
@@ -26,7 +26,7 @@
 
 > Goes up to (250, 250, 250)
 
-######Usage
+###### Usage
 ``` html
 <div class=".rgb-text-40_40_40">...</div>
 ```

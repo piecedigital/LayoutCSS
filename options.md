@@ -1,17 +1,17 @@
-#Options
+# Options
 
-##Modules
+## Modules
 
 * _options.scss
 
-##Available styles
+## Available styles
 
 
 * **.page-wrap**
 
 > Sets an element to a standard maximum width for a page view, and centers it
 
-######Usage
+###### Usage
 ``` html
 <div class="page-wrap"><img ... /></div>
 ```
@@ -21,7 +21,7 @@
 
 > Fits a contained image to be limited in width and height to the element with this class.
 
-######Usage
+###### Usage
 ``` html
 <div class="img-contain"><img ... /></div>
 ```
@@ -31,7 +31,7 @@
 
 > Fits a contained image to be limited in width to the element with this class.
 
-######Usage
+###### Usage
 ``` html
 <div class="img-cover">...</div>
 ```
@@ -41,7 +41,7 @@
 
 > Centers an element if it's display is block
 
-######Usage
+###### Usage
 ``` html
 <div class="margin-center">...</div>
 ```
@@ -51,7 +51,7 @@
 
 > Aligns text and certain elements to the specified position
 
-######Usage
+###### Usage
 ``` html
 <div class="left-justify">...</div>
 ```
@@ -61,7 +61,7 @@
 
 > Vertically aligns elements to the specified position
 
-######Usage
+###### Usage
 ``` html
 <div class="left-justify">...</div>
 ```
@@ -71,7 +71,7 @@
 
 > Sets the font weight of the contained text to bold
 
-######Usage
+###### Usage
 ``` html
 <div class="bold">...</div>
 ```
@@ -81,7 +81,7 @@
 
 > Sets the display of a given element to block
 
-######Usage
+###### Usage
 ``` html
 <div class="block">...</div>
 ```
@@ -91,7 +91,7 @@
 
 > Forces a given element's display to block
 
-######Usage
+###### Usage
 ``` html
 <div class="block-force">...</div>
 ```
@@ -101,7 +101,7 @@
 
 > Sets a given element's display to inline-block
 
-######Usage
+###### Usage
 ``` html
 <div class="inline-block">...</div>
 ```
@@ -111,7 +111,7 @@
 
 > Forces a given element's display to inline-block
 
-######Usage
+###### Usage
 ``` html
 <div class="inline-block-force">...</div>
 ```
@@ -121,7 +121,7 @@
 
 > Sets a given element's display to none
 
-######Usage
+###### Usage
 ``` html
 <div class="hidden">...</div>
 ```
@@ -131,7 +131,7 @@
 
 > Forces a given element's display to none;
 
-######Usage
+###### Usage
 ``` html
 <div class="hidden-force">...</div>
 ```
@@ -141,7 +141,7 @@
 
 > Sets a given element's visibility to hidden
 
-######Usage
+###### Usage
 ``` html
 <div class="invisible">...</div>
 ```
@@ -151,7 +151,7 @@
 
 > Forces a given element's visibility to hidden
 
-######Usage
+###### Usage
 ``` html
 <div class="invisible-force">...</div>
 ```
@@ -161,7 +161,7 @@
 
 > Sets a given element's padding and margin to 0
 
-######Usage
+###### Usage
 ``` html
 <div class="unset">...</div>
 ```
@@ -171,7 +171,7 @@
 
 > Forces a given element's padding and margin to 0
 
-######Usage
+###### Usage
 ``` html
 <div class="unset-force">...</div>
 ```
@@ -181,7 +181,7 @@
 
 > Sets a given element's width and height to 100% of their parent element width and height
 
-######Usage
+###### Usage
 ``` html
 <div class="fillout">...</div>
 ```
@@ -191,7 +191,7 @@
 
 > Sets a given element's width to 100% of their parent element width
 
-######Usage
+###### Usage
 ``` html
 <div class="full-width">...</div>
 ```
@@ -201,7 +201,7 @@
 
 > Sets a given element's height to 100% of their parent element height
 
-######Usage
+###### Usage
 ``` html
 <div class="">...</div>
 ```
@@ -211,7 +211,7 @@
 
 > Sets a given element's text content with the text decoration of underline
 
-######Usage
+###### Usage
 ``` html
 <div class="underline">...</div>
 ```
@@ -221,7 +221,7 @@
 
 > Sets a given element's text content with the text decoration of none
 
-######Usage
+###### Usage
 ``` html
 <div class="no-underline">...</div>
 ```
@@ -231,7 +231,7 @@
 
 > Sets a given list item or list item elements contained to have no list style
 
-######Usage
+###### Usage
 ``` html
 <div class="no-list-style">...</div>
 ```
@@ -241,7 +241,7 @@
 
 > Sets a given element and it's content's box sizing to border box
 
-######Usage
+###### Usage
 ``` html
 <div class="border-box">...</div>
 ```
@@ -251,7 +251,7 @@
 
 > Sets a given element with a display of inline or inline-block to not have white space
 
-######Usage
+###### Usage
 ``` html
 <div class="clear-whitespace">...</div>
 ```
@@ -278,7 +278,7 @@
 
 > Sets a given element as a nav bar fixed to the top of the view
 
-######Usage
+###### Usage
 ``` html
 <nav class="fixed-nav">...</nav>
 ```
@@ -288,7 +288,7 @@
 
 > Sets a given element as a footer fixed to the bottom of the view
 
-######Usage
+###### Usage
 ``` html
 <footer class="fixed-footer">...</footer>
 ```
@@ -300,7 +300,7 @@
 
 > Goes up to 1.0
 
-######Usage
+###### Usage
 ``` html
 <footer class="opacity-0_5">...</footer>
 ```
@@ -310,7 +310,7 @@
 
 > Sets a given element's z-index to x
 
-######Usage
+###### Usage
 ``` html
 <div class="z-index-0">...</div>
 ```
@@ -320,7 +320,7 @@
 
 > Sets a given element's overflow to hidden
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-hidden">...</div>
 ```
@@ -330,7 +330,7 @@
 
 > Sets a given element's overflow to hidden on the x axis
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-hidden-x">...</div>
 ```
@@ -340,7 +340,7 @@
 
 > Sets a given element's overflow to hidden on the y axis
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-hidden-y">...</div>
 ```
@@ -350,7 +350,7 @@
 
 > Sets a given element's overflow to auto
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-auto">...</div>
 ```
@@ -360,7 +360,7 @@
 
 > Sets a given element's overflow to auto on the x axis
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-auto-x">...</div>
 ```
@@ -370,7 +370,7 @@
 
 > Sets a given element's overflow to auto on the y axis
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-auto-y">...</div>
 ```
@@ -380,7 +380,7 @@
 
 > Sets a given element's overflow to scroll
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-scroll">...</div>
 ```
@@ -390,7 +390,7 @@
 
 > Sets a given element's overflow to scroll on the x axis
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-scroll-x">...</div>
 ```
@@ -400,7 +400,7 @@
 
 > Sets a given element's overflow to scroll on the y axis
 
-######Usage
+###### Usage
 ``` html
 <div class="overflow-scroll-y">...</div>
 ```
@@ -410,7 +410,7 @@
 
 > Sets a given element to turn the cursor into a pointer
 
-######Usage
+###### Usage
 ``` html
 <div class="cursor-pointer">...</div>
 ```

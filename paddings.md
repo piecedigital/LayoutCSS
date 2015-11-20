@@ -1,6 +1,6 @@
-#Paddings
+# Paddings
 
-##Modules
+## Modules
 
 * _x-padding.scss
 * _y-padding.scss
@@ -9,7 +9,7 @@
 * _bottom-padding.scss
 * _left-padding.scss
 
-##Available styles
+## Available styles
 
 
 * **.x-pad-x_x**
@@ -18,7 +18,7 @@
 
 > Goes up to 10.0
 
-######Usage
+###### Usage
 ``` html
 <div class="x-pad-1_0">...</div>
 ```
@@ -30,7 +30,7 @@
 
 > Goes up to 10.0
 
-######Usage
+###### Usage
 ``` html
 <div class="y-pad-1_0">...</div>
 ```
@@ -42,7 +42,7 @@
 
 > Goes up to 40.0
 
-######Usage
+###### Usage
 ``` html
 <div class="top-pad-1_0">...</div>
 ```
@@ -54,7 +54,7 @@
 
 > Goes up to 40.0
 
-######Usage
+###### Usage
 ``` html
 <div class="right-pad-1_0">...</div>
 ```
@@ -66,7 +66,7 @@
 
 > Goes up to 40.0
 
-######Usage
+###### Usage
 ``` html
 <div class="bottom-pad-1_0">...</div>
 ```
@@ -78,7 +78,7 @@
 
 > Goes up to 40.0
 
-######Usage
+###### Usage
 ``` html
 <div class="left-pad-1_0">...</div>
 ```

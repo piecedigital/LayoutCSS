@@ -1,13 +1,13 @@
-#Border Box
+# Border Box
 
-##Available styles
+## Available styles
 
 
 * **none**
 
 > Loading this module sets the border-box for every element and pseudo element to have a box sizing of border box
 
-######Usage
+###### Usage
 ``` sass
 @import "_border-box.scss"
 ```
