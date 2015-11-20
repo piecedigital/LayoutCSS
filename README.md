@@ -20,7 +20,7 @@ ___
 LayoutCSS is still a work in progress so be sure to star it, share it, and stay tuned!
 ___
 
-# Directory
+## Directory
 
 * [Options](https://github.com/piecedigital/layoutcss/wiki/options)
 * [Border Box](https://github.com/piecedigital/layoutcss/wiki/border-box)
