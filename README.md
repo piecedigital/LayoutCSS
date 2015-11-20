@@ -1,6 +1,6 @@
 # LayoutCSS
 
-## Dependencies
+## Requirements
 
 * Something to process Sass (Ruby, Node-sass, Compass, etc.)
 
