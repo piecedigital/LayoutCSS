@@ -7,9 +7,10 @@
 ## Available styles
 
 
-* **.page-wrap**
+* **.page-wrap-x**
 
-> Sets an element to a standard maximum width for a page view, and centers it
+> Sets an element to a standard maximum width of x pixels for a page view, and centers it
+> The current optional values for x are "960", "1200", and "1600"
 
 ###### Usage
 ``` html
